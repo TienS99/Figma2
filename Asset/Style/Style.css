@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* Khoi Phuc Co Chu Mac Dinh */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100%-48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 41px;
+  min-width: 186px;
+  max-width: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.headding-lv2,
+.headding-lv2 a {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700px;
+  line-height: 1.33;
+}
+.hearder {
+  background: #fff;
+}
+.hearder .fix {
+  z-index: 1;
+  position: sticky;
+  align-items: center;
+}
+.hearder .body {
+  padding: 52px 0 8px;
+  display: flex;
+  align-items: center;
+}
+.Nar-bar {
+  margin-left: auto;
+}
+.Nar-bar ul {
+  display: flex;
+}
+.Nar-bar a {
+  color: #2f3a3b;
+  padding: 8px 19.5px;
+}
+.Sign .action-link:hover,
+.Nar-bar a:hover {
+  color: #0d1111;
+  text-shadow: 1 0 0 currentColor;
+  font-weight: 600;
+}
+.Sign .action-link {
+  margin-left: 157px;
+  color: #2f3a3b;
+  text-align: center;
+}
+.Sign .action-btn {
+  margin-left: 24px;
+  display: inline-block;
+  padding: 0 16px;
+  min-width: 108px;
+  line-height: 46px;
+  color: #1ebfc1;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 14px;
+  border: 1px solid #1ebfc1;
+}
