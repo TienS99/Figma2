@@ -86,3 +86,86 @@ a {
   border-radius: 14px;
   border: 1px solid #1ebfc1;
 }
+.hero {
+  margin-top: 50px;
+}
+.content-header {
+  display: flex;
+}
+.content-block {
+  width: 458px;
+  height: 445px;
+  margin-top: 93px;
+  text-align: left;
+  margin-right: 71px;
+}
+.top-title {
+  font-size: 14px;
+  line-height: 26px;
+}
+.title {
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 72px;
+  margin-bottom: 46px;
+}
+.desc {
+  width: 376px;
+  margin-bottom: 52px;
+}
+.desc-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d9d9d9;
+}
+.content__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-button {
+  width: 186px;
+  height: 68px;
+  margin-right: 50px;
+}
+.WatchVideo {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: none;
+}
+.WatchVideo:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+.content__Card {
+  margin-left: auto;
+  width: 641px;
+  height: 631px;
+  position: relative;
+}
+.content-Card__img {
+  width: 576px;
+  height: 631px;
+  margin-left: 65px;
+  object-fit: cover;
+}
+.content-card__Card-list {
+  width: 157px;
+  height: 75px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  left: 576px;
+  bottom: 407px;
+  border-radius: 12.5%;
+  background-color: #fff;
+}
+.content-card__Card-list span {
+  font-size: 10px;
+  text-align: center;
+}
